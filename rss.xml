@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:files="https://sourceforge.net/api/files.rdf#" xmlns:media="http://video.search.yahoo.com/mrss/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:sf="https://sourceforge.net/api/sfelements.rdf#" version="2.0">
+  <channel xmlns:files="https://sourceforge.net/api/files.rdf#" xmlns:media="http://video.search.yahoo.com/mrss/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:sf="https://sourceforge.net/api/sfelements.rdf#">
+    <title>Virtual MIDI Piano Keyboard</title>
+    <link>https://sourceforge.net</link>
+    <description><![CDATA[Files from Virtual MIDI Piano Keyboard VMPK is a virtual MIDI piano keyboard for Linux, Windows and OSX. Based on Qt and Drumstick the program is a MIDI event generator using the computer&#39;s alphanumeric keyboard and the mouse. It may be used also to display received MIDI notes. ]]></description>
+    <pubDate>Sat, 24 Feb 2024 09:55:17 UT</pubDate>
+    <managingEditor>noreply@sourceforge.net (SourceForge.net)</managingEditor>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-mac-x64.dmg/download</guid>
+      <pubDate>Fri, 29 Dec 2023 21:40:31 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49969544</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-mac-x64.dmg/download" filesize="14499201"><media:hash algo="md5">85cb67e355565446fe08ac99ed06924f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.zip/download</guid>
+      <pubDate>Fri, 29 Dec 2023 19:10:40 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49969030</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.zip/download" filesize="615026"><media:hash algo="md5">640097c2dfa9fce1f5a41b7fddef6b51</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.tar.gz/download</guid>
+      <pubDate>Fri, 29 Dec 2023 19:10:39 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49969029</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.tar.gz/download" filesize="542088"><media:hash algo="md5">2d1d8552e1b6bf8b535d5009418a3880</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.tar.bz2/download</guid>
+      <pubDate>Fri, 29 Dec 2023 19:10:39 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49969028</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0.tar.bz2/download" filesize="449608"><media:hash algo="md5">735e3286911d4f784a3ea4e9afde3559</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-win-x86-setup.exe/download</guid>
+      <pubDate>Fri, 29 Dec 2023 18:42:27 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49968906</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-win-x86-setup.exe/download" filesize="23191222"><media:hash algo="md5">f26cc4244f95e9158e9d24aa7e41001f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-win-x64-setup.exe/download</guid>
+      <pubDate>Fri, 29 Dec 2023 18:42:18 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49968905</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-win-x64-setup.exe/download" filesize="36118467"><media:hash algo="md5">71e4350232a5a7f56da6cac134687f60</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-x86_64.AppImage/download</guid>
+      <pubDate>Fri, 29 Dec 2023 11:52:39 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/vmpk-0.9.0-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49967411</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/vmpk-0.9.0-x86_64.AppImage/download" filesize="31986880"><media:hash algo="md5">d2d72410925e6d0801702ce9c672c2f0</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.9.0/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/readme.md/download</guid>
+      <pubDate>Fri, 29 Dec 2023 11:52:16 UT</pubDate>
+      <description><![CDATA[/vmpk/0.9.0/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">49967407</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.9.0/readme.md/download" filesize="1514"><media:hash algo="md5">1d2e233baed613fde74dfb9a28f16f90</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-win-x64-setup.exe/download</guid>
+      <pubDate>Sun, 27 Aug 2023 08:24:30 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48379305</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-win-x64-setup.exe/download" filesize="38982645"><media:hash algo="md5">4b004371fd917277eb003f3a4496ef04</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-win-x86-setup.exe/download</guid>
+      <pubDate>Sun, 27 Aug 2023 08:24:09 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48379304</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-win-x86-setup.exe/download" filesize="25679998"><media:hash algo="md5">74880472066b823a8db6cdc094db76b0</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-mac-x64.dmg/download</guid>
+      <pubDate>Sat, 26 Aug 2023 22:31:58 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48361541</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-mac-x64.dmg/download" filesize="14548710"><media:hash algo="md5">8462c882b550c6fa27c7f4ec1e093c51</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-x86_64.AppImage/download</guid>
+      <pubDate>Sat, 26 Aug 2023 17:27:11 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48358170</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10-x86_64.AppImage/download" filesize="32109760"><media:hash algo="md5">d284e2f771022706eb3057fb4bab4e92</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/readme.md/download</guid>
+      <pubDate>Sat, 26 Aug 2023 16:55:45 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48358144</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/readme.md/download" filesize="1140"><media:hash algo="md5">26021c4584f34bc379d023c657816f6a</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.tar.bz2/download</guid>
+      <pubDate>Sat, 26 Aug 2023 16:55:38 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48358141</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.tar.bz2/download" filesize="451445"><media:hash algo="md5">6b0b74479f654910a58e4eb7e05bac33</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.tar.gz/download</guid>
+      <pubDate>Sat, 26 Aug 2023 16:55:38 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48358142</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.tar.gz/download" filesize="544368"><media:hash algo="md5">e057913e678fc10cd128105fb8a98bd4</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.10/vmpk-0.8.10.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.zip/download</guid>
+      <pubDate>Sat, 26 Aug 2023 16:55:38 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.10/vmpk-0.8.10.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">48358143</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.10/vmpk-0.8.10.zip/download" filesize="615398"><media:hash algo="md5">4676bddc14125f90d25691cf2509454d</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-mac-x64.dmg/download</guid>
+      <pubDate>Sun, 23 Jul 2023 09:01:18 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47925267</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-mac-x64.dmg/download" filesize="14422068"><media:hash algo="md5">d54195927346d80445019e2dd8db7522</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-win-x86-setup.exe/download</guid>
+      <pubDate>Sun, 23 Jul 2023 07:29:49 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47924992</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-win-x86-setup.exe/download" filesize="25646880"><media:hash algo="md5">4239d4279915fe5ef195ddd4a7a0bfae</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-win-x64-setup.exe/download</guid>
+      <pubDate>Sun, 23 Jul 2023 07:29:41 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47924991</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-win-x64-setup.exe/download" filesize="38945261"><media:hash algo="md5">36a9cd65252fd4cbcc913e8085bfae2c</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-x86_64.AppImage/download</guid>
+      <pubDate>Sat, 22 Jul 2023 18:38:51 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47922060</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9-x86_64.AppImage/download" filesize="29958560"><media:hash algo="md5">65dbc4c0a5b78059d285d75531d21620</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/readme.md/download</guid>
+      <pubDate>Sat, 22 Jul 2023 18:11:26 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47921992</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/readme.md/download" filesize="1160"><media:hash algo="md5">3cd8f24fb194a203c7eb54f2285ff4c5</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.zip/download</guid>
+      <pubDate>Sat, 22 Jul 2023 18:11:18 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47921991</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.zip/download" filesize="592081"><media:hash algo="md5">db61669f9ead8003264802ce450fbb6f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.tar.bz2/download</guid>
+      <pubDate>Sat, 22 Jul 2023 18:11:17 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47921989</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.tar.bz2/download" filesize="436944"><media:hash algo="md5">d8272a1b5f80e43a284985541cd69f90</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.9/vmpk-0.8.9.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.tar.gz/download</guid>
+      <pubDate>Sat, 22 Jul 2023 18:11:17 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.9/vmpk-0.8.9.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">47921990</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.9/vmpk-0.8.9.tar.gz/download" filesize="520304"><media:hash algo="md5">739cde078753a9ceb50d622c66fea3da</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-x86_64.AppImage/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:10:13 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252146</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-x86_64.AppImage/download" filesize="33800232"><media:hash algo="md5">ead91c591357db92d0ed44c8e7f8f410</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-win-x86-setup.exe/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:10:04 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252140</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-win-x86-setup.exe/download" filesize="27166994"><media:hash algo="md5">ad61f6f776144ce05082fec738b5e6ff</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-win-x64-setup.exe/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:10:00 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252139</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-win-x64-setup.exe/download" filesize="41344631"><media:hash algo="md5">13d3d4c291e6d376b3392a7f8f3d37f4</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-mac-x64.dmg/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:09:48 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252138</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8-mac-x64.dmg/download" filesize="13010577"><media:hash algo="md5">faa84e2be09b72fca5fa4d4efedb1835</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.tar.bz2/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:09:29 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252135</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.tar.bz2/download" filesize="487253"><media:hash algo="md5">fe7860c25c77065fb753d25cd4b7de79</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.tar.gz/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:09:24 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252134</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.tar.gz/download" filesize="567932"><media:hash algo="md5">6417b696826366172000dac964d4905e</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/vmpk-0.8.8.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.zip/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:09:30 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/vmpk-0.8.8.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252136</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/vmpk-0.8.8.zip/download" filesize="608833"><media:hash algo="md5">d861da441a0283f57d9fcac08d2f6ec8</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.8/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/readme.md/download</guid>
+      <pubDate>Sun, 28 Aug 2022 19:09:09 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.8/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">44252133</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.8/readme.md/download" filesize="1192"><media:hash algo="md5">b293877eaf4dcdf415822aff32af8d53</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/vmpk-0.8.7-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-win-x86-setup.exe/download</guid>
+      <pubDate>Mon, 04 Apr 2022 17:28:45 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/vmpk-0.8.7-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41860226</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-win-x86-setup.exe/download" filesize="27164142"><media:hash algo="md5">fe8816fd1a4f9133fb6e96fbbc783076</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/vmpk-0.8.7-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-win-x64-setup.exe/download</guid>
+      <pubDate>Mon, 04 Apr 2022 17:28:38 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/vmpk-0.8.7-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41860225</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-win-x64-setup.exe/download" filesize="41337302"><media:hash algo="md5">a976d8956b74c5c401d31ae26a93af89</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/vmpk-0.8.7-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-linux-x86_64.AppImage/download</guid>
+      <pubDate>Mon, 04 Apr 2022 14:48:08 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/vmpk-0.8.7-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41856564</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7-linux-x86_64.AppImage/download" filesize="32890920"><media:hash algo="md5">6b88b2fe06d6be351d2142d2c1e8a8b0</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/vmpk-0.8.7.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.tar.bz2/download</guid>
+      <pubDate>Mon, 04 Apr 2022 14:47:59 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/vmpk-0.8.7.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41856562</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.tar.bz2/download" filesize="483742"><media:hash algo="md5">62fb0850637bbc9810fabdc23488d190</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/vmpk-0.8.7.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.zip/download</guid>
+      <pubDate>Mon, 04 Apr 2022 14:48:00 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/vmpk-0.8.7.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41856563</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.zip/download" filesize="604275"><media:hash algo="md5">68ee3d34f4574e5a1dc2da7f3c45cdd6</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/vmpk-0.8.7.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.tar.gz/download</guid>
+      <pubDate>Mon, 04 Apr 2022 14:47:59 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/vmpk-0.8.7.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41856561</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/vmpk-0.8.7.tar.gz/download" filesize="564576"><media:hash algo="md5">675a292f8a28ce1efab039cdca847294</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.7/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/readme.md/download</guid>
+      <pubDate>Mon, 04 Apr 2022 14:47:58 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.7/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">41856560</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.7/readme.md/download" filesize="1335"><media:hash algo="md5">5116b8965ce4fe156fccf994468d8a71</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/vmpk-0.8.6-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-win-x64-setup.exe/download</guid>
+      <pubDate>Thu, 23 Dec 2021 09:12:07 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/vmpk-0.8.6-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39436776</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-win-x64-setup.exe/download" filesize="41274354"><media:hash algo="md5">6f5fe3c6a3de01d2d171cdcd22e94ebd</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/vmpk-0.8.6-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-win-x86-setup.exe/download</guid>
+      <pubDate>Thu, 23 Dec 2021 09:11:25 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/vmpk-0.8.6-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39436774</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-win-x86-setup.exe/download" filesize="27158661"><media:hash algo="md5">0538860613fe87a62c159309bff84383</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/readme.md/download</guid>
+      <pubDate>Wed, 22 Dec 2021 17:24:39 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39429568</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/readme.md/download" filesize="1291"><media:hash algo="md5">aa1ea60544c45a29067291dafe7c6f23</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/vmpk-0.8.6-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-linux-x86_64.AppImage/download</guid>
+      <pubDate>Wed, 22 Dec 2021 17:24:32 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/vmpk-0.8.6-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39429567</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6-linux-x86_64.AppImage/download" filesize="28119080"><media:hash algo="md5">5b40671d5856401b6e96cef79aa60f2c</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/vmpk-0.8.6.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.zip/download</guid>
+      <pubDate>Wed, 22 Dec 2021 17:23:19 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/vmpk-0.8.6.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39429560</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.zip/download" filesize="602549"><media:hash algo="md5">5fe1687a31a187e562c9359871e57d5a</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/vmpk-0.8.6.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.tar.bz2/download</guid>
+      <pubDate>Wed, 22 Dec 2021 17:23:17 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/vmpk-0.8.6.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39429558</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.tar.bz2/download" filesize="483376"><media:hash algo="md5">045f454e6389526bc1c31101c4691514</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.6/vmpk-0.8.6.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.tar.gz/download</guid>
+      <pubDate>Wed, 22 Dec 2021 17:23:17 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.6/vmpk-0.8.6.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">39429559</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.6/vmpk-0.8.6.tar.gz/download" filesize="562616"><media:hash algo="md5">f4a30818c50f4a2a8c5495baf6f1f1b9</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/vmpk-0.8.5-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-win-x86-setup.exe/download</guid>
+      <pubDate>Sun, 24 Oct 2021 22:47:48 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/vmpk-0.8.5-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520986</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-win-x86-setup.exe/download" filesize="27707444"><media:hash algo="md5">a2837202e389de694e5fe06cfced8196</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/vmpk-0.8.5-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-win-x64-setup.exe/download</guid>
+      <pubDate>Sun, 24 Oct 2021 22:45:01 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/vmpk-0.8.5-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520984</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-win-x64-setup.exe/download" filesize="30950788"><media:hash algo="md5">e96e33d5101da3c4ea98bbecfb736f71</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/readme.md/download</guid>
+      <pubDate>Sun, 24 Oct 2021 19:18:48 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520180</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/readme.md/download" filesize="1448"><media:hash algo="md5">1332d0e55c9a6950fef39f75e246aad4</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/vmpk-0.8.5-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-linux-x86_64.AppImage/download</guid>
+      <pubDate>Sun, 24 Oct 2021 19:18:36 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/vmpk-0.8.5-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520179</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5-linux-x86_64.AppImage/download" filesize="28114984"><media:hash algo="md5">c2ba281c325c97c5dfc6282a54002a6d</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/vmpk-0.8.5.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.zip/download</guid>
+      <pubDate>Sun, 24 Oct 2021 19:17:11 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/vmpk-0.8.5.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520178</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.zip/download" filesize="604160"><media:hash algo="md5">f89120e9ea1777282938b833185949fd</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/vmpk-0.8.5.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.tar.bz2/download</guid>
+      <pubDate>Sun, 24 Oct 2021 19:17:08 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/vmpk-0.8.5.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520177</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.tar.bz2/download" filesize="484128"><media:hash algo="md5">15ec8baa4d958d31976e633eb704675d</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.5/vmpk-0.8.5.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.tar.gz/download</guid>
+      <pubDate>Sun, 24 Oct 2021 19:17:08 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.5/vmpk-0.8.5.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">38520176</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.5/vmpk-0.8.5.tar.gz/download" filesize="564102"><media:hash algo="md5">856679816df2553356e9a2f404a7d6ac</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/vmpk-0.8.4-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-win-x64-setup.exe/download</guid>
+      <pubDate>Tue, 29 Jun 2021 14:17:21 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/vmpk-0.8.4-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36640444</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-win-x64-setup.exe/download" filesize="30938011"><media:hash algo="md5">3d46976bbc48c8c75317dab637923774</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/vmpk-0.8.4-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-win-x86-setup.exe/download</guid>
+      <pubDate>Tue, 29 Jun 2021 14:15:22 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/vmpk-0.8.4-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36640441</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-win-x86-setup.exe/download" filesize="27696463"><media:hash algo="md5">7a0fa5dabb0664f13a775d8ae96e391f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/vmpk-0.8.4-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-linux-x86_64.AppImage/download</guid>
+      <pubDate>Mon, 28 Jun 2021 16:41:21 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/vmpk-0.8.4-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36629333</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4-linux-x86_64.AppImage/download" filesize="28106792"><media:hash algo="md5">c90468358522cc637e4674dd49a3b375</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/vmpk-0.8.4.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.zip/download</guid>
+      <pubDate>Mon, 28 Jun 2021 16:39:54 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/vmpk-0.8.4.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36629332</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.zip/download" filesize="602382"><media:hash algo="md5">10f4700baf60eeec15011d966ff521cd</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/vmpk-0.8.4.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.gz/download</guid>
+      <pubDate>Mon, 28 Jun 2021 16:39:52 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/vmpk-0.8.4.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36629331</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.gz/download" filesize="562797"><media:hash algo="md5">f5e7e6ca49a1187feb8976d14ce75652</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/vmpk-0.8.4.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.bz2/download</guid>
+      <pubDate>Mon, 28 Jun 2021 16:39:53 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/vmpk-0.8.4.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36629330</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.bz2/download" filesize="483243"><media:hash algo="md5">dde23d4672bfecd158368c914f936899</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.4/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/readme.md/download</guid>
+      <pubDate>Sun, 27 Jun 2021 17:59:13 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.4/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36619714</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/readme.md/download" filesize="976"><media:hash algo="md5">50755e96b44208ab398f6c8fa2fc5f5c</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-win-x64-setup.exe/download</guid>
+      <pubDate>Mon, 10 May 2021 14:14:53 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36040028</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-win-x64-setup.exe/download" filesize="30301639"><media:hash algo="md5">55d409a6d90f6e9bddb689c887d2ca14</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-win-x86-setup.exe/download</guid>
+      <pubDate>Mon, 10 May 2021 14:14:46 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36040027</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-win-x86-setup.exe/download" filesize="27135990"><media:hash algo="md5">7e82264f28e1b96274b86d51b8e3491a</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-mac-x64.dmg/download</guid>
+      <pubDate>Mon, 10 May 2021 11:58:07 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36038568</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-mac-x64.dmg/download" filesize="11992872"><media:hash algo="md5">302d4cdabed2911db09ec0e39ee13dac</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-linux-x86_64.AppImage/download</guid>
+      <pubDate>Sun, 09 May 2021 22:17:49 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36034422</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3-linux-x86_64.AppImage/download" filesize="27652136"><media:hash algo="md5">50266363e14d238e9fe0f8966b1fd48b</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.zip/download</guid>
+      <pubDate>Sun, 09 May 2021 21:53:58 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36034403</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.zip/download" filesize="600675"><media:hash algo="md5">69d2b4750924e069cbeb54b43e11268f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.tar.bz2/download</guid>
+      <pubDate>Sun, 09 May 2021 21:53:55 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36034401</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.tar.bz2/download" filesize="481537"><media:hash algo="md5">437ee4ed6466f46956d9176bdf4ff02d</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/vmpk-0.8.3.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.tar.gz/download</guid>
+      <pubDate>Sun, 09 May 2021 21:53:56 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/vmpk-0.8.3.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36034402</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/vmpk-0.8.3.tar.gz/download" filesize="560737"><media:hash algo="md5">08b5e1fa96ce118505597bc6cde6353f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.3/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/readme.md/download</guid>
+      <pubDate>Sun, 09 May 2021 21:53:53 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.3/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">36034400</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.3/readme.md/download" filesize="1521"><media:hash algo="md5">0cd6ff955e33a7cce3682ee9e3a13834</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/readme.md/download</guid>
+      <pubDate>Wed, 31 Mar 2021 12:30:22 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35432768</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/readme.md/download" filesize="1120"><media:hash algo="md5">75ded84c0998ca3ac9a56a08ef163b8c</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-mac-x64.dmg/download</guid>
+      <pubDate>Wed, 31 Mar 2021 12:26:13 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35432745</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-mac-x64.dmg/download" filesize="11412598"><media:hash algo="md5">b3a681e5e89c38fe73aca5511171567e</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-win-x64-setup.exe/download</guid>
+      <pubDate>Wed, 31 Mar 2021 11:41:26 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35432599</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-win-x64-setup.exe/download" filesize="30832051"><media:hash algo="md5">2f8e619861400285f8e0f5190ee9ceda</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-win-x86-setup.exe/download</guid>
+      <pubDate>Wed, 31 Mar 2021 11:39:43 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35432592</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-win-x86-setup.exe/download" filesize="27487030"><media:hash algo="md5">252d8bac11c8b04a9e9179ecc10ff2c0</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-linux-x86_64.AppImage/download</guid>
+      <pubDate>Wed, 31 Mar 2021 09:23:32 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35431635</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2-linux-x86_64.AppImage/download" filesize="26587176"><media:hash algo="md5">ac47222efdf3b6cd59313b783ae0c45f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.zip/download</guid>
+      <pubDate>Wed, 31 Mar 2021 09:00:25 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35431616</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.zip/download" filesize="635370"><media:hash algo="md5">b2339a26352a53cc3cd2a376f0f1e811</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.tar.bz2/download</guid>
+      <pubDate>Wed, 31 Mar 2021 09:00:23 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35431614</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.tar.bz2/download" filesize="480320"><media:hash algo="md5">8a5abfef761b65dfdda04096b457c8fe</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.2/vmpk-0.8.2.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.tar.gz/download</guid>
+      <pubDate>Wed, 31 Mar 2021 09:00:23 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.2/vmpk-0.8.2.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35431615</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.2/vmpk-0.8.2.tar.gz/download" filesize="579556"><media:hash algo="md5">b2aef4945d2afecfb181e0caa9d47282</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-mac-x64.dmg/download</guid>
+      <pubDate>Sat, 20 Mar 2021 20:20:36 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35294470</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-mac-x64.dmg/download" filesize="11416180"><media:hash algo="md5">9c9e83cb86a33fcbf65f1621fa47b29f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-win-x64-setup.exe/download</guid>
+      <pubDate>Sat, 20 Mar 2021 17:59:29 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35293106</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-win-x64-setup.exe/download" filesize="30819141"><media:hash algo="md5">f14b2e805486fd5288741755936ab687</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-win-x86-setup.exe/download</guid>
+      <pubDate>Sat, 20 Mar 2021 17:59:21 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35293105</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-win-x86-setup.exe/download" filesize="27483009"><media:hash algo="md5">6f806fee58a108ba888c0f8046f081af</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-linux-x86_64.AppImage/download</guid>
+      <pubDate>Sat, 20 Mar 2021 16:31:32 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35289370</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1-linux-x86_64.AppImage/download" filesize="26587176"><media:hash algo="md5">bda71b6a42a876e9982530451b0f0e31</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.zip/download</guid>
+      <pubDate>Sat, 20 Mar 2021 16:30:25 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35289368</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.zip/download" filesize="634508"><media:hash algo="md5">9c5e5c8b81bcaee6a8641ce14cc7ed70</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.tar.gz/download</guid>
+      <pubDate>Sat, 20 Mar 2021 16:30:23 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35289367</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.tar.gz/download" filesize="579079"><media:hash algo="md5">3579244946a0b0b706a632d775d7f263</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/vmpk-0.8.1.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.tar.bz2/download</guid>
+      <pubDate>Sat, 20 Mar 2021 16:30:22 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/vmpk-0.8.1.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35289366</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/vmpk-0.8.1.tar.bz2/download" filesize="479587"><media:hash algo="md5">02420ad55cc71ffbb9cb1ff7f438c61d</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.1/readme.md]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/readme.md/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/readme.md/download</guid>
+      <pubDate>Sat, 20 Mar 2021 15:54:07 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.1/readme.md]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">35289331</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.1/readme.md/download" filesize="1511"><media:hash algo="md5">b2032217e393d8c9f949a493eeed5ac0</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.1-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.1-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.1-mac-x64.dmg/download</guid>
+      <pubDate>Tue, 05 Jan 2021 18:09:56 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.1-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34459706</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.1-mac-x64.dmg/download" filesize="11396699"><media:hash algo="md5">16affc612d907d73783a9bff84f0feef</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-win-x86-setup.exe/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:05:33 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440353</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-win-x86-setup.exe/download" filesize="26027052"><media:hash algo="md5">958742f4d1f747b38449410618d30839</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-win-x64-setup.exe/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:05:04 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440352</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-win-x64-setup.exe/download" filesize="29295029"><media:hash algo="md5">927c0110949043856dc352062a3ee647</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-linux-x86_64.AppImage/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:04:28 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440349</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0-linux-x86_64.AppImage/download" filesize="26357800"><media:hash algo="md5">736e40e6c71bdcf4c86bae422f1bd777</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.zip/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:03:11 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440345</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">empty (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.zip/download" filesize="586704"><media:hash algo="md5">214c913a00a62ccfa7fde73302fbb547</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.tar.bz2]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.tar.bz2/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.tar.bz2/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:03:09 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.tar.bz2]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440343</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-bzip2; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.tar.bz2/download" filesize="466517"><media:hash algo="md5">bf358510df2c6a1a6f860f9699defa11</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.tar.gz/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:03:10 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/vmpk-0.8.0.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440344</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/vmpk-0.8.0.tar.gz/download" filesize="546817"><media:hash algo="md5">a1acc9c3c9c489a41c5d9a8516fe6ba4</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.8.0/README]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/README/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/README/download</guid>
+      <pubDate>Wed, 30 Dec 2020 23:03:08 UT</pubDate>
+      <description><![CDATA[/vmpk/0.8.0/README]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">34440342</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="text/plain; charset=utf-8" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.8.0/README/download" filesize="1665"><media:hash algo="md5">f2f3da3c4cfdb0336ccc53963b5de1ae</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.1-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.1-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.1-linux-x86_64.AppImage/download</guid>
+      <pubDate>Wed, 12 Aug 2020 15:15:38 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.1-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">33541488</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.1-linux-x86_64.AppImage/download" filesize="26271720"><media:hash algo="md5">9818a3b7fc710c1c2ba14335778703b9</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.1-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.1-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.1-mac-x64.dmg/download</guid>
+      <pubDate>Wed, 12 Aug 2020 15:15:03 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.1-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">33541486</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.1-mac-x64.dmg/download" filesize="11206179"><media:hash algo="md5">420f18c27ae3caacc137e4667ab88960</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-linux-x86_64.AppImage]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-linux-x86_64.AppImage/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-linux-x86_64.AppImage/download</guid>
+      <pubDate>Tue, 03 Sep 2019 18:34:29 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-linux-x86_64.AppImage]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">31417797</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">ELF 64-bit LSB executable, x86-64, for GNU/Linux</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-executable; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-linux-x86_64.AppImage/download" filesize="25501672"><media:hash algo="md5">80f13ae1288546d6a61de42b666a0ed5</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-win-x86-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-win-x86-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-win-x86-setup.exe/download</guid>
+      <pubDate>Sun, 01 Sep 2019 14:40:15 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-win-x86-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">31407133</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-win-x86-setup.exe/download" filesize="25795384"><media:hash algo="md5">d3a59ecd0571403fe1d987393576e7d3</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-win-x64-setup.exe]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-win-x64-setup.exe/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-win-x64-setup.exe/download</guid>
+      <pubDate>Sun, 01 Sep 2019 14:39:45 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-win-x64-setup.exe]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">31407081</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PE32 executable</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-dosexec; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-win-x64-setup.exe/download" filesize="29314324"><media:hash algo="md5">37f9d26f3b0b01b550fa188e441db6c6</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-mac-x64.dmg]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-mac-x64.dmg/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-mac-x64.dmg/download</guid>
+      <pubDate>Sun, 01 Sep 2019 14:38:21 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2-mac-x64.dmg]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">31406931</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/octet-stream; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2-mac-x64.dmg/download" filesize="11171700"><media:hash algo="md5">32c111cb93c580f95a018bbae4169abb</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.zip]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.zip/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.zip/download</guid>
+      <pubDate>Sun, 01 Sep 2019 14:36:16 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">31406734</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">text (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/zip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.zip/download" filesize="620723"><media:hash algo="md5">60b7593b5b413033c42bc13b7cf67e5f</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.tar.gz/download</guid>
+      <pubDate>Sun, 01 Sep 2019 14:36:15 UT</pubDate>
+      <description><![CDATA[/vmpk/0.7.2/vmpk-0.7.2.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">31406731</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip; charset=binary" url="https://sourceforge.net/projects/vmpk/files/vmpk/0.7.2/vmpk-0.7.2.tar.gz/download" filesize="546400"><media:hash algo="md5">e2acf0d765a9afb091746c2a55995b4c</media:hash></media:content>
+    </item>
+  </channel>
+</rss>
