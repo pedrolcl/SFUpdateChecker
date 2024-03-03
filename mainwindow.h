@@ -1,15 +1,18 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
 #include <QObject>
 
-#include "bestreleases.h"
 #include "releasedata.h"
-#include "releasestable.h"
 
 class QTreeWidget;
 class QTreeWidgetItem;
+class BestReleases;
+class ReleasesTable;
 
 class MainWindow : public QMainWindow
 {
@@ -31,8 +34,8 @@ private:
     void addReleaseToTree(const ReleaseData &releaseData, QTreeWidget *tree);
 
     // members
-    ReleasesTable m_releases;
-    BestReleases m_bestReleases;
+    ReleasesTable *m_releases;
+    BestReleases *m_bestReleases;
 
     QTreeWidget *m_tree;
     QTreeWidget *m_besTree;

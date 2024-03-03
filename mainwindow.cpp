@@ -1,3 +1,6 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #include <QApplication>
 #include <QDebug>
 #include <QDesktopServices>
@@ -17,8 +20,11 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    connect(&m_releases, &ReleasesTable::parsingFinished, this, &MainWindow::finishedTable);
-    connect(&m_bestReleases, &BestReleases::parsingFinished, this, &MainWindow::finishedBest);
+    m_releases = new ReleasesTable(this);
+    m_bestReleases = new BestReleases(this);
+
+    connect(m_releases, &ReleasesTable::parsingFinished, this, &MainWindow::finishedTable);
+    connect(m_bestReleases, &BestReleases::parsingFinished, this, &MainWindow::finishedBest);
 
     QWidget *content = new QWidget(this);
     QVBoxLayout *layout = new QVBoxLayout(content);
@@ -36,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
     layout->addWidget(tableLabel);
 
     m_tree = new QTreeWidget(this);
-    connect(m_besTree, &QTreeWidget::itemActivated, this, &MainWindow::openLink);
+    connect(m_tree, &QTreeWidget::itemActivated, this, &MainWindow::openLink);
     m_tree->setHeaderLabels(columnNames());
     m_tree->header()->setSectionResizeMode(QHeaderView::ResizeToContents);
     layout->addWidget(m_tree);
@@ -71,14 +77,14 @@ void MainWindow::addReleaseToTree(const ReleaseData &releaseData, QTreeWidget *t
 
 void MainWindow::finishedTable()
 {
-    for (const ReleaseData &rel : m_releases.filtered()) {
+    for (const ReleaseData &rel : m_releases->filtered()) {
         addReleaseToTree(rel, m_tree);
     }
 }
 
 void MainWindow::finishedBest()
 {
-    for (const ReleaseData &rel : m_bestReleases.filtered()) {
+    for (const ReleaseData &rel : m_bestReleases->filtered()) {
         addReleaseToTree(rel, m_besTree);
     }
 }
@@ -95,9 +101,12 @@ QStringList MainWindow::columnNames()
 
 void MainWindow::populateData()
 {
+#ifdef DEBUG
     QFileInfo fi(QApplication::applicationFilePath());
-    m_bestReleases.getFromSourceforge();
-    //m_bestReleases.parseFromFile(fi.absolutePath() + "/best_release.json");
-    m_releases.getFromSourceforge();
-    //m_releases.parseFromFile(fi.absolutePath() + "/rss.xml");
+    m_bestReleases->parseFromFile(fi.absolutePath() + "/best_release.json");
+    m_releases->parseFromFile(fi.absolutePath() + "/rss.xml");
+#else
+    m_bestReleases->getFromSourceforge();
+    m_releases->getFromSourceforge();
+#endif
 }

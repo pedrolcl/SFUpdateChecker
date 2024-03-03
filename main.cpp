@@ -1,3 +1,6 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #include <QApplication>
 #include <QDateTime>
 #include <QDebug>

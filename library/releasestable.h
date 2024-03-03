@@ -1,14 +1,18 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #ifndef RELEASESTABLE_H
 #define RELEASESTABLE_H
 
-#include <QNetworkAccessManager>
-#include <QNetworkReply>
 #include <QObject>
 #include <QString>
 #include <QUrl>
 #include <QXmlStreamReader>
 
 #include "releasedata.h"
+
+class QNetworkAccessManager;
+class QNetworkReply;
 
 using namespace Qt::Literals::StringLiterals;
 
@@ -26,7 +30,7 @@ public:
 
 public slots:
     void consumeData();
-    void error(QNetworkReply::NetworkError);
+    void error();
 
 signals:
     void parsingFinished();
@@ -45,7 +49,7 @@ private:
     QString m_hashString;
 
     // Network state:
-    QNetworkAccessManager m_manager;
+    QNetworkAccessManager *m_manager;
     QNetworkReply *m_currentReply;
 
     QString m_project;

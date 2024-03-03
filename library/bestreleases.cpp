@@ -1,5 +1,10 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #include <QFile>
 #include <QJsonObject>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
 #include <QRegularExpression>
 #include <QString>
 #include <QSysInfo>
@@ -15,7 +20,8 @@ BestReleases::BestReleases(QObject *parent)
                 QSysInfo::kernelType(),
                 QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate)}
 {
-    connect(&m_manager, &QNetworkAccessManager::finished, this, &BestReleases::parsingFinished);
+    m_manager = new QNetworkAccessManager(this);
+    connect(m_manager, &QNetworkAccessManager::finished, this, &BestReleases::parsingFinished);
 
     qDebug() << "product:" << QSysInfo::prettyProductName()
              << "product version:" << QSysInfo::productVersion();
@@ -55,7 +61,7 @@ void BestReleases::consumeData()
     m_currentReply = nullptr;
 }
 
-void BestReleases::error(QNetworkReply::NetworkError)
+void BestReleases::error()
 {
     qWarning("error retrieving Json document");
     m_json = QJsonDocument();
@@ -74,7 +80,7 @@ void BestReleases::get(const QUrl &url)
     request.setUrl(url);
     request.setRawHeader("User-Agent"_ba, "SFUpdateChecker 1.0"_ba);
 
-    m_currentReply = url.isValid() ? m_manager.get(request) : nullptr;
+    m_currentReply = url.isValid() ? m_manager->get(request) : nullptr;
     if (m_currentReply) {
         connect(m_currentReply, &QNetworkReply::readyRead, this, &BestReleases::consumeData);
         connect(m_currentReply, &QNetworkReply::errorOccurred, this, &BestReleases::error);

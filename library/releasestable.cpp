@@ -1,5 +1,10 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #include <QFile>
 #include <QFileInfo>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
 #include <QRegularExpression>
 #include <QString>
 #include <QSysInfo>
@@ -17,7 +22,8 @@ ReleasesTable::ReleasesTable(QObject *parent)
                 QSysInfo::kernelType(),
                 QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate)}
 {
-    connect(&m_manager, &QNetworkAccessManager::finished, this, &ReleasesTable::parsingFinished);
+    m_manager = new QNetworkAccessManager(this);
+    connect(m_manager, &QNetworkAccessManager::finished, this, &ReleasesTable::parsingFinished);
 }
 
 void ReleasesTable::parseFromFile(const QString &fileName)
@@ -42,7 +48,7 @@ void ReleasesTable::consumeData()
         parseXml();
 }
 
-void ReleasesTable::error(QNetworkReply::NetworkError)
+void ReleasesTable::error()
 {
     qWarning("error retrieving RSS feed");
     m_xml.clear();
@@ -58,7 +64,7 @@ void ReleasesTable::get(const QUrl &url)
         m_currentReply->disconnect(this);
         m_currentReply->deleteLater();
     }
-    m_currentReply = url.isValid() ? m_manager.get(QNetworkRequest(url)) : nullptr;
+    m_currentReply = url.isValid() ? m_manager->get(QNetworkRequest(url)) : nullptr;
     if (m_currentReply) {
         connect(m_currentReply, &QNetworkReply::readyRead, this, &ReleasesTable::consumeData);
         connect(m_currentReply, &QNetworkReply::errorOccurred, this, &ReleasesTable::error);

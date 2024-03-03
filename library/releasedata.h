@@ -1,3 +1,6 @@
+// Copyright (c) 2024, Pedro López-Cabanillas
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #ifndef RELEASEDATA_H
 #define RELEASEDATA_H
 
