@@ -7,8 +7,10 @@
 #include <QFileInfo>
 #include <QHeaderView>
 #include <QLabel>
+#include <QMessageBox>
 #include <QMetaEnum>
 #include <QSysInfo>
+#include <QTimer>
 #include <QTreeWidget>
 #include <QVBoxLayout>
 #include <QWidget>
@@ -21,16 +23,16 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
     m_releases = new ReleasesTable(this);
-    m_bestReleases = new BestReleases(this);
-
     connect(m_releases, &ReleasesTable::parsingFinished, this, &MainWindow::finishedTable);
+
+    m_bestReleases = new BestReleases(this);
     connect(m_bestReleases, &BestReleases::parsingFinished, this, &MainWindow::finishedBest);
 
     QWidget *content = new QWidget(this);
     QVBoxLayout *layout = new QVBoxLayout(content);
 
-    QLabel *bestLabel = new QLabel(tr("Best available releases:"), this);
-    layout->addWidget(bestLabel);
+    m_bestLabel = new QLabel(this);
+    layout->addWidget(m_bestLabel);
 
     m_besTree = new QTreeWidget(this);
     connect(m_besTree, &QTreeWidget::itemActivated, this, &MainWindow::openLink);
@@ -38,8 +40,8 @@ MainWindow::MainWindow(QWidget *parent)
     m_besTree->header()->setSectionResizeMode(QHeaderView::ResizeToContents);
     layout->addWidget(m_besTree);
 
-    QLabel *tableLabel = new QLabel(tr("All available releases:"), this);
-    layout->addWidget(tableLabel);
+    m_tableLabel = new QLabel(this);
+    layout->addWidget(m_tableLabel);
 
     m_tree = new QTreeWidget(this);
     connect(m_tree, &QTreeWidget::itemActivated, this, &MainWindow::openLink);
@@ -52,7 +54,7 @@ MainWindow::MainWindow(QWidget *parent)
     setWindowTitle(tr("Sourceforge File Releases"));
     resize(1440, 600);
 
-    populateData();
+    QTimer::singleShot(1000, this, &MainWindow::checkForUpdates);
 }
 
 void MainWindow::openLink(QTreeWidgetItem *item)
@@ -75,17 +77,56 @@ void MainWindow::addReleaseToTree(const ReleaseData &releaseData, QTreeWidget *t
     tree->addTopLevelItem(item);
 }
 
+void MainWindow::showAvailableUpdates(int rows)
+{
+    QString title{tr("An Update is Available")};
+    QString text{
+        tr("You have %n %1 update(s) available for %2. Click one of the following link(s) to "
+           "download it.<br/>",
+           nullptr,
+           rows)
+            .arg(m_releases->currentProject(), QSysInfo::prettyProductName())};
+    for (const ReleaseData &rel : m_releases->filtered()) {
+        text += "<a href='" + rel.link.toString() + "'>" + rel.title + "</a><br/>";
+    }
+    if (m_releases->currentRelease().platform == "linux") {
+        text += tr("You may also want to try a <a "
+                   "href='https://flathub.org/apps/search?q=%1'>Flatpak</a>, instead<br/>")
+                    .arg(m_releases->currentProject());
+    }
+    QMessageBox::information(this, title, text);
+}
+
+void MainWindow::showNoUpdatesAvailable()
+{
+    QString title{tr("No Updates Available")};
+    QString text{tr("You are already running the latest %1 release available for %2.")
+                     .arg(m_releases->currentProject(), QSysInfo::prettyProductName())};
+    QMessageBox::information(this, title, text);
+}
+
 void MainWindow::finishedTable()
 {
-    for (const ReleaseData &rel : m_releases->filtered()) {
-        addReleaseToTree(rel, m_tree);
+    int rows = m_releases->filteredCount();
+    m_tableLabel->setText(tr("All Available Releases: %n row(s)", nullptr, rows));
+    if (rows > 0) {
+        for (const ReleaseData &rel : m_releases->filtered()) {
+            addReleaseToTree(rel, m_tree);
+        }
+        showAvailableUpdates(rows);
+    } else {
+        showNoUpdatesAvailable();
     }
 }
 
 void MainWindow::finishedBest()
 {
-    for (const ReleaseData &rel : m_bestReleases->filtered()) {
-        addReleaseToTree(rel, m_besTree);
+    int rows = m_bestReleases->filteredCount();
+    m_bestLabel->setText(tr("Best Available Releases: %n row(s)", nullptr, rows));
+    if (rows > 0) {
+        for (const ReleaseData &rel : m_bestReleases->filtered()) {
+            addReleaseToTree(rel, m_besTree);
+        }
     }
 }
 
@@ -99,7 +140,7 @@ QStringList MainWindow::columnNames()
     return res;
 }
 
-void MainWindow::populateData()
+void MainWindow::checkForUpdates()
 {
 #ifdef DEBUG
     QFileInfo fi(QApplication::applicationFilePath());

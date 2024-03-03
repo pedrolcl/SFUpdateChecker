@@ -9,6 +9,7 @@
 
 #include "releasedata.h"
 
+class QLabel;
 class QTreeWidget;
 class QTreeWidgetItem;
 class BestReleases;
@@ -30,8 +31,10 @@ public slots:
 
 private:
     QStringList columnNames();
-    void populateData();
+    void checkForUpdates();
     void addReleaseToTree(const ReleaseData &releaseData, QTreeWidget *tree);
+    void showAvailableUpdates(int rows);
+    void showNoUpdatesAvailable();
 
     // members
     ReleasesTable *m_releases;
@@ -39,6 +42,8 @@ private:
 
     QTreeWidget *m_tree;
     QTreeWidget *m_besTree;
+    QLabel *m_bestLabel;
+    QLabel *m_tableLabel;
 };
 
 #endif // MAINWINDOW_H

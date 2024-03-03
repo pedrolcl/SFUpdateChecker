@@ -30,6 +30,9 @@ public:
     ReleasesList filtered() const;
     int filteredCount() const;
 
+    const ReleaseData &currentRelease() const { return m_current; }
+    const QString &currentProject() const { return m_project; }
+
 public slots:
     void consumeData();
     void error();

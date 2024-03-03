@@ -16,13 +16,14 @@ BestReleases::BestReleases(QObject *parent)
     : QObject{parent}
     , m_currentReply(nullptr)
     , m_project{QStringLiteral(QT_STRINGIFY(PR_PROJECT))}
-    , m_current{QVersionNumber::fromString(QT_STRINGIFY(PR_VERSION)),
-                QSysInfo::kernelType() == u"winnt"_s ? QSysInfo::productType()
-                                                     : QSysInfo::kernelType(),
-                QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate)}
 {
     m_manager = new QNetworkAccessManager(this);
     connect(m_manager, &QNetworkAccessManager::finished, this, &BestReleases::parsingFinished);
+
+    m_current.version = QVersionNumber::fromString(QT_STRINGIFY(PR_VERSION));
+    m_current.platform = QSysInfo::kernelType() == u"winnt"_s ? QSysInfo::productType()
+                                                              : QSysInfo::kernelType();
+    m_current.date = QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate);
 
     qDebug() << "product:" << QSysInfo::prettyProductName()
              << "product version:" << QSysInfo::productVersion();

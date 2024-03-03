@@ -5,9 +5,9 @@ cmake_minimum_required(VERSION 3.19)
 
 project(libSFUpdateChecker VERSION 0.1 LANGUAGES CXX)
 
-set(PR_VERSION "0.1.0")
+set(PR_VERSION "0.9.0")
 set(PR_PROJECT "vmpk")
-set(PR_DATETIME "2000-12-29T23:59:59Z")
+set(PR_DATETIME "2023-12-29T00:59:59Z")
 
 find_package(Qt6 REQUIRED COMPONENTS Core Network)
 qt_standard_project_setup(REQUIRES 6.4)

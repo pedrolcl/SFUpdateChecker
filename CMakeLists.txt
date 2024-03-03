@@ -29,7 +29,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE "$<$<CONFIG:DEBUG>:DEBUG>")
 
-
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/rss.xml ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/best_release.json ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 
