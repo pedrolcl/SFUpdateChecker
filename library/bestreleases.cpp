@@ -30,8 +30,7 @@ BestReleases::BestReleases(QObject *parent)
              << "platform version:" << QSysInfo::kernelVersion();
     qDebug() << "built arch:" << QSysInfo::buildCpuArchitecture()
              << "current arch:" << QSysInfo::currentCpuArchitecture();
-    qDebug() << "current release:" << m_current.platform << m_current.version << m_current.title
-             << m_current.date;
+    qDebug() << "current release:" << m_current.platform << m_current.version << m_current.date;
 }
 
 void BestReleases::parseFromFile(const QString &fileName)
@@ -63,7 +62,7 @@ void BestReleases::consumeData()
 
 void BestReleases::error()
 {
-    qWarning("error retrieving Json document");
+    qWarning() << tr("error retrieving Json document");
     m_json = QJsonDocument();
     m_currentReply->disconnect(this);
     m_currentReply->deleteLater();
@@ -116,7 +115,7 @@ void BestReleases::parseOneRelease(const QLatin1StringView key, const QJsonObjec
     item.platform = key == "release"_L1 ? "source"_L1 : key;
     item.title = title;
     QDateTime dt = QDateTime::fromString(pubDate, m_datefmt);
-    dt.setTimeZone(QTimeZone::UTC);
+    dt.setTimeZone(QTimeZone::utc());
     item.date = dt;
     item.content = content;
     item.size = size;

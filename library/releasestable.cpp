@@ -50,7 +50,7 @@ void ReleasesTable::consumeData()
 
 void ReleasesTable::error()
 {
-    qWarning("error retrieving RSS feed");
+    qWarning() << tr("error retrieving RSS feed");
     m_xml.clear();
     m_currentReply->disconnect(this);
     m_currentReply->deleteLater();
@@ -87,30 +87,30 @@ void ReleasesTable::parseXml()
     while (!m_xml.atEnd()) {
         m_xml.readNext();
         if (m_xml.isStartElement()) {
-            if (m_xml.name() == u"item") {
+            if (m_xml.name() == "item"_L1) {
                 m_titleString.clear();
                 m_pubDateString.clear();
                 m_contentString.clear();
                 m_sizeString.clear();
                 m_linkString.clear();
                 m_hashString.clear();
-            } else if (m_xml.name() == u"content") {
-                m_contentString = m_xml.attributes().value(u"type").toString();
-                m_sizeString = m_xml.attributes().value(u"filesize").toString();
+            } else if (m_xml.name() == "content"_L1) {
+                m_contentString = m_xml.attributes().value("type"_L1).toString();
+                m_sizeString = m_xml.attributes().value("filesize"_L1).toString();
             }
             m_currentTag = m_xml.name().toString();
         } else if (m_xml.isEndElement()) {
-            if (m_xml.name() == u"item") {
+            if (m_xml.name() == "item"_L1) {
                 ReleaseData item;
                 QFileInfo info(m_titleString);
-                if (info.suffix() == "exe") {
-                    item.platform = "windows";
-                } else if (info.suffix() == "dmg") {
-                    item.platform = "mac";
-                } else if (info.suffix() == "AppImage") {
-                    item.platform = "linux";
+                if (info.suffix() == "exe"_L1) {
+                    item.platform = "windows"_L1;
+                } else if (info.suffix() == "dmg"_L1) {
+                    item.platform = "mac"_L1;
+                } else if (info.suffix() == "AppImage"_L1) {
+                    item.platform = "linux"_L1;
                 } else {
-                    item.platform = "source";
+                    item.platform = "source"_L1;
                 }
                 QRegularExpression rex(m_rextpl.arg(m_project));
                 auto match = rex.match(m_titleString);
@@ -128,16 +128,16 @@ void ReleasesTable::parseXml()
                 push_back(std::move(item));
             }
         } else if (m_xml.isCharacters() && !m_xml.isWhitespace() && !m_xml.isComment()) {
-            if (m_currentTag == u"title")
+            if (m_currentTag == "title"_L1)
                 m_titleString += m_xml.text();
-            else if (m_currentTag == u"pubDate")
+            else if (m_currentTag == "pubDate"_L1)
                 m_pubDateString += m_xml.text();
-            else if (m_currentTag == u"link")
+            else if (m_currentTag == "link"_L1)
                 m_linkString += m_xml.text();
-            else if (m_currentTag == u"hash")
+            else if (m_currentTag == "hash"_L1)
                 m_hashString += m_xml.text();
         }
     }
     if (m_xml.error() && m_xml.error() != QXmlStreamReader::PrematureEndOfDocumentError)
-        qWarning() << "XML ERROR:" << m_xml.lineNumber() << ": " << m_xml.errorString();
+        qWarning() << tr("XML ERROR:") << m_xml.lineNumber() << ": " << m_xml.errorString();
 }
