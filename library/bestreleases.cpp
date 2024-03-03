@@ -21,9 +21,15 @@ BestReleases::BestReleases(QObject *parent)
     connect(m_manager, &QNetworkAccessManager::finished, this, &BestReleases::parsingFinished);
 
     m_current.version = QVersionNumber::fromString(QT_STRINGIFY(PR_VERSION));
-    m_current.platform = QSysInfo::kernelType() == u"winnt"_s ? QSysInfo::productType()
-                                                              : QSysInfo::kernelType();
     m_current.date = QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate);
+    if (QSysInfo::productType() == u"windows"_s)
+        m_current.platform =  QSysInfo::productType();
+    else if (QSysInfo::productType() == u"macos"_s)
+        m_current.platform =  u"mac"_s;
+    else if (QSysInfo::kernelType() == u"linux"_s)
+        m_current.platform =  QSysInfo::kernelType();
+    else
+        m_current.platform = u"source"_s;
 
     qDebug() << "product:" << QSysInfo::prettyProductName()
              << "product version:" << QSysInfo::productVersion();
