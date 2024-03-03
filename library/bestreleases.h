@@ -28,6 +28,7 @@ public:
     void get(const QUrl &url);
 
     ReleasesList filtered() const;
+    int filteredCount() const;
 
 public slots:
     void consumeData();

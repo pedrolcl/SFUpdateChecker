@@ -19,7 +19,8 @@ ReleasesTable::ReleasesTable(QObject *parent)
     , m_currentReply(nullptr)
     , m_project{QStringLiteral(QT_STRINGIFY(PR_PROJECT))}
     , m_current{QVersionNumber::fromString(QT_STRINGIFY(PR_VERSION)),
-                QSysInfo::kernelType(),
+                QSysInfo::kernelType() == u"winnt"_s ? QSysInfo::productType()
+                                                     : QSysInfo::kernelType(),
                 QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate)}
 {
     m_manager = new QNetworkAccessManager(this);
@@ -59,7 +60,6 @@ void ReleasesTable::error()
 
 void ReleasesTable::get(const QUrl &url)
 {
-    qDebug() << Q_FUNC_INFO << url;
     if (m_currentReply) {
         m_currentReply->disconnect(this);
         m_currentReply->deleteLater();
@@ -80,6 +80,14 @@ ReleasesList ReleasesTable::filtered() const
                && data.platform == m_current.platform;
     });
     return result;
+}
+
+int ReleasesTable::filteredCount() const
+{
+    return std::count_if(cbegin(), cend(), [=](const ReleaseData &data) {
+        return data.version >= m_current.version && data.date > m_current.date
+               && data.platform == m_current.platform;
+    });
 }
 
 void ReleasesTable::parseXml()

@@ -17,7 +17,8 @@ BestReleases::BestReleases(QObject *parent)
     , m_currentReply(nullptr)
     , m_project{QStringLiteral(QT_STRINGIFY(PR_PROJECT))}
     , m_current{QVersionNumber::fromString(QT_STRINGIFY(PR_VERSION)),
-                QSysInfo::kernelType(),
+                QSysInfo::kernelType() == u"winnt"_s ? QSysInfo::productType()
+                                                     : QSysInfo::kernelType(),
                 QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate)}
 {
     m_manager = new QNetworkAccessManager(this);
@@ -94,6 +95,14 @@ ReleasesList BestReleases::filtered() const
                && data.platform == m_current.platform;
     });
     return result;
+}
+
+int BestReleases::filteredCount() const
+{
+    return std::count_if(cbegin(), cend(), [=](const ReleaseData &data) {
+        return data.version >= m_current.version && data.date > m_current.date
+               && data.platform == m_current.platform;
+    });
 }
 
 void BestReleases::parseOneRelease(const QLatin1StringView key, const QJsonObject obj)
