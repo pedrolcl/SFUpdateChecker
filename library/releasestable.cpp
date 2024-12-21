@@ -12,18 +12,24 @@
 
 #include "releasestable.h"
 
+namespace drumstick {
+namespace updchk {
+
 using namespace Qt::Literals::StringLiterals;
 
-ReleasesTable::ReleasesTable(QObject *parent)
+ReleasesTable::ReleasesTable(const QString projectName,
+                             const QString projectVersion,
+                             const QString projectDateTime,
+                             QObject *parent)
     : QObject{parent}
     , m_currentReply(nullptr)
-    , m_project{QStringLiteral(QT_STRINGIFY(PR_PROJECT))}
+    , m_project{projectName}
 {
     m_manager = new QNetworkAccessManager(this);
     connect(m_manager, &QNetworkAccessManager::finished, this, &ReleasesTable::parsingFinished);
 
-    m_current.version = QVersionNumber::fromString(QT_STRINGIFY(PR_VERSION));
-    m_current.date = QDateTime::fromString(QT_STRINGIFY(PR_DATETIME), Qt::ISODate);
+    m_current.version = QVersionNumber::fromString(projectVersion);
+    m_current.date = QDateTime::fromString(projectDateTime, Qt::ISODate);
     if (QSysInfo::productType() == u"windows"_s)
         m_current.platform =  QSysInfo::productType();
     else if (QSysInfo::productType() == u"macos"_s)
@@ -156,3 +162,6 @@ void ReleasesTable::parseXml()
     if (m_xml.error() && m_xml.error() != QXmlStreamReader::PrematureEndOfDocumentError)
         qWarning() << tr("XML ERROR:") << m_xml.lineNumber() << ": " << m_xml.errorString();
 }
+
+} // namespace updchk
+} // namespace drumstick

@@ -19,13 +19,21 @@
 #include "mainwindow.h"
 #include "releasestable.h"
 
+using namespace drumstick::updchk;
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    m_releases = new ReleasesTable(this);
+    m_releases = new ReleasesTable(QStringLiteral(QT_STRINGIFY(PR_PROJECT)),
+                                   QStringLiteral(QT_STRINGIFY(PR_VERSION)),
+                                   QStringLiteral(QT_STRINGIFY(PR_DATETIME)),
+                                   this);
     connect(m_releases, &ReleasesTable::parsingFinished, this, &MainWindow::finishedTable);
 
-    m_bestReleases = new BestReleases(this);
+    m_bestReleases = new BestReleases(QStringLiteral(QT_STRINGIFY(PR_PROJECT)),
+                                      QStringLiteral(QT_STRINGIFY(PR_VERSION)),
+                                      QStringLiteral(QT_STRINGIFY(PR_DATETIME)),
+                                      this);
     connect(m_bestReleases, &BestReleases::parsingFinished, this, &MainWindow::finishedBest);
 
     QWidget *content = new QWidget(this);

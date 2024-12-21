@@ -3,13 +3,13 @@
 
 cmake_minimum_required(VERSION 3.19)
 
-project(libSFUpdateChecker VERSION 0.1 LANGUAGES CXX)
-
-set(PR_VERSION "0.9.0")
-set(PR_PROJECT "vmpk")
-set(PR_DATETIME "2023-12-29T00:59:59Z")
+project(libdrumstick-updchk
+    VERSION 0.1.0
+    LANGUAGES CXX
+)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Network)
+
 qt_standard_project_setup(REQUIRES 6.4)
 
 set(PROJECT_SOURCES
@@ -23,22 +23,32 @@ set(PROJECT_HEADERS
     bestreleases.h
 )
 
-qt_add_library(${PROJECT_NAME} STATIC
+qt_add_library(${PROJECT_NAME}
     ${PROJECT_SOURCES}
     ${PROJECT_HEADERS}
-)
-
-target_compile_definitions(${PROJECT_NAME} PRIVATE
-    PR_PROJECT=${PR_PROJECT}
-    PR_VERSION=${PR_VERSION}
-    PR_DATETIME=${PR_DATETIME}
 )
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     "$<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/library;${CMAKE_BINARY_DIR}/library>"
     "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME}>" )
 set_target_properties( ${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${PROJECT_HEADERS}")
-add_library( ${PROJECT_NAME}-static ALIAS ${PROJECT_NAME})
+
+if(STATIC_DRUMSTICK)
+    add_library( ${PROJECT_NAME}-static ALIAS ${PROJECT_NAME})
+endif()
+
+if(STATIC_DRUMSTICK)
+    set_target_properties(${PROJECT_NAME} PROPERTIES
+        STATIC_LIB ${PROJECT_NAME}
+        EXPORT_NAME UPDCHK
+    )
+else()
+    set_target_properties(${PROJECT_NAME} PROPERTIES
+        VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}
+        SOVERSION ${PROJECT_VERSION_MAJOR}
+        EXPORT_NAME UPDCHK
+    )
+endif()
 
 target_link_libraries(${PROJECT_NAME} PUBLIC
     Qt6::Core

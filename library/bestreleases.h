@@ -14,14 +14,20 @@
 class QNetworkAccessManager;
 class QNetworkReply;
 
+namespace drumstick {
+namespace updchk {
+
 using namespace Qt::Literals::StringLiterals;
 
-class BestReleases : public QObject, public ReleasesList
+class DRUMSTICK_UPDCHK_EXPORT BestReleases : public QObject, public ReleasesList
 {
     Q_OBJECT
 
 public:
-    explicit BestReleases(QObject *parent = nullptr);
+    explicit BestReleases(const QString projectName,
+                          const QString projectVersion,
+                          const QString projectDateTime,
+                          QObject *parent = nullptr);
 
     void parseFromFile(const QString &fileName);
     void getFromSourceforge();
@@ -59,5 +65,8 @@ private:
     static inline const QString m_rextpl{u"^\\/%1\\/(.*)\\/%1.*$"_s};
     static inline const QString m_datefmt{u"yyyy-MM-dd hh:mm:ss"_s};
 };
+
+} // namespace updchk
+} // namespace drumstick
 
 #endif // BESTRELEASES_H

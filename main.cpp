@@ -6,7 +6,6 @@
 #include <QDebug>
 
 #include "mainwindow.h"
-#include "releasedata.h"
 
 int main(int argc, char *argv[])
 {

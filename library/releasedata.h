@@ -11,6 +11,19 @@
 #include <QUrl>
 #include <QVersionNumber>
 
+#if defined(DRUMSTICK_STATIC)
+#define DRUMSTICK_UPDCHK_EXPORT
+#else
+#if defined(drumstick_updchk_EXPORTS)
+#define DRUMSTICK_UPDCHK_EXPORT Q_DECL_EXPORT
+#else
+#define DRUMSTICK_UPDCHK_EXPORT Q_DECL_IMPORT
+#endif
+#endif
+
+namespace drumstick {
+namespace updchk {
+
 struct ReleaseData
 {
     QVersionNumber version;
@@ -25,5 +38,8 @@ struct ReleaseData
 };
 
 typedef QList<ReleaseData> ReleasesList;
+
+} // namespace updchk
+} // namespace drumstick
 
 #endif // RELEASEDATA_H

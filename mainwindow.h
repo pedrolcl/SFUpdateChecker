@@ -12,8 +12,15 @@
 class QLabel;
 class QTreeWidget;
 class QTreeWidgetItem;
+
+namespace drumstick {
+namespace updchk {
+
 class BestReleases;
 class ReleasesTable;
+
+} // namespace updchk
+} // namespace drumstick
 
 class MainWindow : public QMainWindow
 {
@@ -32,13 +39,13 @@ public slots:
 private:
     QStringList columnNames();
     void checkForUpdates();
-    void addReleaseToTree(const ReleaseData &releaseData, QTreeWidget *tree);
+    void addReleaseToTree(const drumstick::updchk::ReleaseData &releaseData, QTreeWidget *tree);
     void showAvailableUpdates(int rows);
     void showNoUpdatesAvailable();
 
     // members
-    ReleasesTable *m_releases;
-    BestReleases *m_bestReleases;
+    drumstick::updchk::ReleasesTable *m_releases;
+    drumstick::updchk::BestReleases *m_bestReleases;
 
     QTreeWidget *m_tree;
     QTreeWidget *m_besTree;
